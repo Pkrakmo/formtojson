@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Hello World (test)</title>
+</head>
+<body>
+
+
+<h1>Form to JSON</h1>
+
+<form action="">
+Reference: <input type="text" name="refer" placeholder="reference" value="P1" > <br>
+Name: <input type="text" name="name" placeholder="name" value="Productl" > <br>
+Type: <input type="text" name="type" placeholder="type" value="PRODUCT" > <br>
+Class: <input type="text" name="class" placeholder="class" value="ProductGroupl"> <br>
+Description: <input type="text" name="descri" placeholder="description"> <br>
+Discount description: <input type="text" name="discou" placeholder="discountDescription" value="Volume discount" > <br> 
+Quantity: <input type="text" name="quanti" placeholder="quantity">  <br>
+Quantity Unit: <input type="text" name="quantiUni" placeholder="quantityUnit" value="pcs" > <br>
+Unit Price: <input type="text" name="unitPrice" placeholder="unitPrice"> <br> 
+Discount Price: <input type="text" name="discouPrice" placeholder="discountPrice" value="0" ><br> 
+vat Percent: <input type="text" name="vatPerc" placeholder="vatPercent" value="25" > % <br>
+Amount: This will be autofilled by (Quantity * Unitprice) * 100<br>
+vat Amount: <input type="text" name="vatAmount" placeholder="vatAmount" value="0"> <br>
+</form>
+
+<input type="submit" id="subBtn" value="Submit"><br>
+
+<textarea id="outputBox" rows="20" cols="22"></textarea><br>
+
+</body>
+<script src="scripts.js"></script>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "formtojson",
+  "version": "1.0.0",
+  "description": "Webform to JSON",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mimung/formtojson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mimung/formtojson/issues"
+  },
+  "homepage": "https://github.com/Mimung/formtojson#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

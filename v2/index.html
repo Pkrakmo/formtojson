@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <title>Test 🤖</title>
+</head>
+
+<body>
+  <div>
+    <h1>Form to JSON🤖</h1>
+    <div>
+      <h2>Input</h2>
+      <form action="">
+        Reference: <input type="text" name="refer" placeholder="reference" value="P1" /><br>
+        Name: <input type="text" name="name" placeholder="name" value="Product1" /><br>
+
+        Type:
+        <select name="type" id="type">
+          <option value="PRODUCT">PRODUCT</option>
+          <option value="SERVICE">SERVICE</option>
+          <option value="SHIPPING_FEE">SHIPPING_FEE</option>
+          <option value="PAYMENT_FEE">PAYMENT_FEE</option>
+          <option value="DISCOUNT">DISCOUNT</option>
+          <option value="VALUE_CODE">VALUE_CODE</option>
+          <option value="OTHER">OTHER</option>
+        </select> <br>
+
+        Class: <input type="text" name="class" placeholder="class" value="ProductGroup1" /><br>
+        Description: <input type="text" name="descri" placeholder="description" /><br>
+        Discount description: <input type="text" name="discou" placeholder="discountDescription"
+          value="Volume discount" /><br>
+        Quantity: <input type="text" name="quanti" placeholder="quantity" /><br>
+
+        Quantity Unit :
+
+        <select name="quantiUni" id="quantiUni">
+          <option value="pcs">pcs</option>
+          <option value="abstract">abstract</option>
+        </select> <br>
+
+        Unit Price: <input type="text" name="unitPrice" placeholder="unitPrice" /><br>
+        Discount Price: <input type="text" name="discouPrice" placeholder="discountPrice" value="0" /><br>
+        vat Percent: <input type="text" name="vatPerc" placeholder="vatPercent" value="25" /> % <br>
+        vat Amount: <input type="text" name="vatAmount" placeholder="vatAmount" value="0" />
+      </form>
+
+      <div>
+        <input type="submit" id="subBtn" value="Submit">
+        <input type="submit" id="completeBtn" value="Complete">
+        <input type="submit" id="cpyBtn" value="Copy">
+        <input type="submit" id="rstBtn" value="Reset">
+        <input type="submit" id="testBtn2" value="Test2">
+      </div>
+    </div>
+    <div style="float:left">
+      <h2>Output</h2>
+      <pre id="outputBox" class="boarder"></pre>
+    </div>
+  </div>
+
+</body>
+
+<script src="utils.js"></script>
+<script src="script.js"></script>
+
+</html>

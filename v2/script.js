@@ -1,4 +1,5 @@
 'use strict';
+let testArray = [];
 
 const subBtn = document.getElementById('subBtn')
 const rstBtn = document.getElementById('rstBtn')
@@ -24,5 +25,5 @@ completeBtn.addEventListener('click', function () {
 })
 
 testBtn2.addEventListener('click', function () {
-    console.log(calcTotalAmount() - 300)
+console.log("rip")
 })

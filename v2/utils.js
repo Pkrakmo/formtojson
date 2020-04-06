@@ -38,8 +38,8 @@ function formToJson() {
 function resetForm() {
     document.getElementById("outputBox").innerHTML = "";
     orderItemArray.length = 0;
-    console.log("Data is rested")
 }
+
 
 function calcTotalAmount() {
     let total = 0;
@@ -120,6 +120,4 @@ function completeJson(){
     }
 
     document.getElementById("outputBox").innerHTML = JSON.stringify(orderitems, undefined, 2); 
-    // console.log(JSON.stringify(orderitems['paymentorder'],['amount']));
-    console.log("Complete is completed")
 }

@@ -5,7 +5,7 @@ const subBtn = document.getElementById('subBtn')
 const rstBtn = document.getElementById('rstBtn')
 const cpyBtn = document.getElementById('cpyBtn')
 const completeBtn = document.getElementById('completeBtn')
-const testBtn2 = document.getElementById('testBtn2')
+
 
 
 subBtn.addEventListener('click', function () {
@@ -22,8 +22,4 @@ cpyBtn.addEventListener('click', function () {
 
 completeBtn.addEventListener('click', function () {
     completeJson()
-})
-
-testBtn2.addEventListener('click', function () {
-console.log("rip")
 })

@@ -15,7 +15,7 @@ pre {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 4px 2px 0px;
     cursor: pointer;
 }
 
@@ -74,4 +74,8 @@ pre {
 .btn.btn-executive {
     color: #fff;
     background-color: #1267e6;
+}
+
+.form-control {
+    min-height: calc(2.25rem + 12px);
 }

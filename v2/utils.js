@@ -11,8 +11,8 @@ function formToJson() {
 
     let orderItem = {
         reference: valueArray[0],
-        name: valueArray[1],
-        type: valueArray[2],
+        name: valueArray[2],
+        type: valueArray[1],
         class: valueArray[3],
         description: valueArray[4],
         discountDescription: valueArray[5],

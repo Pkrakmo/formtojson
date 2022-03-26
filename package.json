@@ -18,6 +18,6 @@
   "homepage": "https://github.com/Mimung/formtojson#readme",
   "dependencies": {
     "lite-server": "^2.5.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
